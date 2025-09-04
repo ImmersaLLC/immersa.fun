@@ -1,1 +1,112 @@
-Hello, This is Immersa! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Immersa Edutainment</title>
+  <link rel="icon" type="image/png" href="assets/Immersa-Favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="assets/logo.png" alt="Immersa Edutainment Logo" class="logo">
+      <button class="nav-toggle" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="waiver.html">Waiver</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="carousel">
+          <img src="assets/3D renderings/3D rendering 1.jpeg" class="carousel-image active" alt="3D Rendering 1">
+          <img src="assets/3D renderings/3D rendering 2.jpeg" class="carousel-image" alt="3D Rendering 2">
+          <img src="assets/3D renderings/3D rendering 3.jpeg" class="carousel-image" alt="3D Rendering 3">
+          <img src="assets/3D renderings/3D rendering 4.jpeg" class="carousel-image" alt="3D Rendering 4">
+          <button class="carousel-btn prev">&#10094;</button>
+          <button class="carousel-btn next">&#10095;</button>
+          <div class="carousel-indicators">
+            <span class="carousel-indicator active"></span>
+            <span class="carousel-indicator"></span>
+            <span class="carousel-indicator"></span>
+            <span class="carousel-indicator"></span>
+          </div>
+        </div>
+        <h1>Welcome to Immersa Edutainment</h1>
+        <p>Experience the future of fun and learning with VR games and STEAM workshops!</p>
+        <div class="events">
+          <div class="event">
+            <strong>Soft Opening:</strong> Oct 10, 2025
+          </div>
+          <div class="event">
+            <strong>Grand Opening:</strong> Oct 31, 2025
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="games-fun">
+      <h2>Games and Fun for Everyone</h2>
+      <div class="media-list">
+        <img src="assets/Banners/banner1.jpeg" alt="Banner 1">
+        <img src="assets/Banners/banner2.jpeg" alt="Banner 2">
+        <img src="assets/Banners/banner3.jpeg" alt="Banner 3">
+        <img src="assets/Banners/banner4.jpeg" alt="Banner 4">
+        <img src="assets/Banners/banner11.jpeg" alt="Banner 11">
+      </div>
+    </section>
+    <section class="featured-vr-machines">
+      <h2>Featured VR Machines</h2>
+      <div class="machines-list" style="display:flex;gap:20px;flex-wrap:wrap;justify-content:center;">
+        <div class="machine-box"><img src="assets/Machines/360double-flight-vr.png" alt="360° Double Flight VR"></div>
+        <div class="machine-box"><img src="assets/Machines/360 Moto.png" alt="360° Rotate Moto"></div>
+        <div class="machine-box"><img src="assets/Machines/Corps Pro.png" alt="VR Corps Pro"></div>
+        <div class="machine-box"><img src="assets/Machines/UFO.jpeg" alt="VR Magic UFO"></div>
+        <div class="machine-box"><img src="assets/Machines/Car Similutor.png" alt="VR Racing Kart"></div>
+      </div>
+    </section>
+    <section class="coming-soon-toys">
+      <h2>Coming Soon: Toys, STEM & More!</h2>
+      <div class="media-list toys">
+        <img src="assets/Toys/sample robot upsale 1.jpeg" alt="Sample Robot Toy 1">
+        <img src="assets/Toys/sample robot upsale 2.jpeg" alt="Sample Robot Toy 2">
+        <img src="assets/Toys/sample robot upsale 3.jpeg" alt="Sample Robot Toy 3">
+        <img src="assets/Toys/sample robot upsale 4.jpeg" alt="Sample Robot Toy 4">
+        <img src="assets/Toys/sample robot upsale 5.jpeg" alt="Sample Robot Toy 5">
+      </div>
+    </section>
+    <section class="coming-soon-workshops">
+      <h2>Stay Tuned for Workshops and Classes!</h2>
+      <p>We will soon offer STEAM workshops and educational classes for all ages. Check back for updates and schedules!</p>
+    </section>
+  </main>
+  <footer>
+    <div class="contact-details">
+      <span>📍 7101 Democracy Blvd, Bethesda, MD 20817</span> |
+      <span>📞 +1 (227) 277-8291</span> |
+      <span>✉️ <span class="link" id="email"></span></span> |
+      <span>🌐 <a class="link" href="https://www.immersa.fun" target="_blank">www.immersa.fun</a></span>
+    </div>
+    <div class="social-media">
+      <a href="#" class="social-icon instagram">Instagram</a>
+      <a href="#" class="social-icon facebook">Facebook</a>
+      <a href="#" class="social-icon twitter">Twitter</a>
+      <a href="#" class="social-icon tiktok">TikTok</a>
+    </div>
+    <p>&copy; 2025 Immersa LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
